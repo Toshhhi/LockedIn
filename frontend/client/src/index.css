@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Outfit:wght@400;600;700&display=swap');
+@import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* For titles, logo, tagline, emphasis elements */
+h1, h2, h3, .font-display, .logo, .tagline {
+  font-family: 'Outfit', sans-serif;
+}
